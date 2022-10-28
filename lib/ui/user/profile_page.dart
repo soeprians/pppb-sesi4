@@ -54,7 +54,9 @@ Container body(BuildContext context) {
           SizedBox(
               width: 130,
               height: 130,
-              child: CircleAvatar(backgroundColor: Colors.grey.shade200)),
+              child: CircleAvatar(
+                  backgroundColor: Colors.grey.shade200,
+                  backgroundImage: AssetImage('assets/images/unnamed.jpg'))),
           Positioned(
               bottom: 0,
               right: 0,
